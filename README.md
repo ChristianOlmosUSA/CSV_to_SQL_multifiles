@@ -8,5 +8,5 @@
 
 
 I have left some of the dev tools and test files in here.
-smallTestFolder contains some examples
+smallTestFolder contains some examples to run this on
 but the 2GB file I ran this on is in gitignore
