@@ -1,6 +1,6 @@
 # This file prints all the file paths to the terminal so you can see it running, and then it saves them to a file called FileDirectory.txt
 import os
-rootdir = 'smallTestFolder'
+rootdir = 'TESTINGS'
 
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:

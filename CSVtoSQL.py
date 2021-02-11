@@ -1,4 +1,5 @@
 # This program takes a single CME options print out, of 57 columns and converts it to SQL. 
+#### ITS BASIC AS IT WAS FOR TESTING.
 # see CSVtoSQL_LOOP.py if you have tons of folders of these files to convert
 
 import sqlite3          # to set up: pip install db-sqlite3
