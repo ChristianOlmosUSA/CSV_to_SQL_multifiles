@@ -9,11 +9,10 @@ itemIndexNo=[]  # The index number will reference which line to delete
 def Screen_Tickers():
     Dirfile = open("FileDirectory.txt", "r")
     myline = Dirfile.readline()
-    a = 0
+    a = 1
     while myline:
-        # print("MyLine: ", myline)   # print the name of the file
+        # split the lines taken from FileDirectory.txt into dates  / file name
         myline = Dirfile.readline()
-    # split the line into dates
         x = myline.split('\\')
         y = x[4:5]      # 4:5 is the location chunk of the Date, 6:7 is the location of the name like E1F1
         z = x[6:7]
